@@ -1,0 +1,39 @@
+{
+  "name": "OK",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "native-base": "^2.12.1",
+    "react": "16.8.3",
+    "react-native": "0.59.4",
+    "react-native-animated-header": "^1.0.7",
+    "react-native-axios": "^0.17.1",
+    "react-native-countdown-component": "^2.2.0",
+    "react-native-device-info": "^2.1.3",
+    "react-native-hide-show-password-input": "^1.0.7",
+    "react-native-ratings": "^6.3.1",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-searchable-dropdown": "^1.0.6",
+    "react-native-smooth-pincode-input": "^1.0.3",
+    "react-number-format": "^4.0.7",
+    "react-redux": "^7.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.3",
+    "@babel/runtime": "7.4.3",
+    "babel-jest": "24.7.1",
+    "jest": "24.7.1",
+    "metro-react-native-babel-preset": "0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
